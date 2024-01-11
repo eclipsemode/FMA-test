@@ -8,20 +8,32 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "prisma": {
+    "seed": "ts-node --compiler-options {\"module\":\"CommonJS\"} prisma/seed.ts"
+  },
   "dependencies": {
+    "@clerk/nextjs": "^4.29.2",
+    "@prisma/client": "^5.7.1",
+    "@reduxjs/toolkit": "^2.0.1",
+    "ace-builds": "^1.32.3",
+    "next": "14.0.4",
     "react": "^18",
+    "react-ace": "^10.1.0",
+    "react-content-loader": "^6.2.1",
     "react-dom": "^18",
-    "next": "14.0.4"
+    "react-redux": "^9.0.4"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "autoprefixer": "^10.0.1",
-    "postcss": "^8",
-    "tailwindcss": "^3.3.0",
     "eslint": "^8",
-    "eslint-config-next": "14.0.4"
+    "eslint-config-next": "14.0.4",
+    "postcss": "^8",
+    "prisma": "^5.7.1",
+    "tailwindcss": "^3.3.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5"
   }
 }
