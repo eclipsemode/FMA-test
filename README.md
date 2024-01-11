@@ -1,5 +1,11 @@
 ## Preview video
 
+
+
+https://github.com/eclipsemode/FMA-test/assets/29868983/9c45933e-4181-455f-88d3-7d781be46da1
+
+
+
 ## Window break points
 
 | Tailwind name | window size |
